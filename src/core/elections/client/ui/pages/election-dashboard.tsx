@@ -8,7 +8,7 @@ import { ProbabilityGauge } from "../components/probability-gauge";
 import type { ElectionData } from "@/core/elections/domain/types";
 
 const REFRESH_INTERVAL = 30_000;
-const SITE_URL = "https://elecciones-peru.vercel.app";
+const SITE_URL = "https://votaciones-peru-2026.vercel.app";
 
 interface ElectionDashboardProps {
     initialData: ElectionData;
